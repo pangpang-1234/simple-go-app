@@ -1,0 +1,6 @@
+tmp
+uploads
+.env
+migrations
+bin
+seed

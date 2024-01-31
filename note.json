@@ -1,0 +1,22 @@
+{
+   "articles": {
+      "items":[ 
+         {
+         "id": 1,
+         "title": "A",
+         "ercerpt": "A Json file",
+         "body": "Examplt Json file",
+         "image": "https://findimage/image.png"
+         }
+         , {}
+      ],
+      "paging": {
+         "page": 1,
+         "limig": 2,
+         "prevPage": 0,
+         "nextPage": 2,
+         "count": 8,
+         "totalPage": 4
+      }
+   }
+}
