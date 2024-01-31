@@ -4,3 +4,4 @@ uploads
 migrations
 bin
 seed
+note.json
