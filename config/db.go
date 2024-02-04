@@ -1,11 +1,10 @@
 package config
 
 import (
-	"simplegoapp/models"
 	"log"
 	"os"
 
-	// "gocourse/models"
+	// "simplegoapp/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
@@ -24,7 +23,7 @@ func InitDB() {
 		log.Fatal(err)
 		return
 	}
-	db.Migrator().AutoMigrate(&models.Article{})
+	_ = db
 }
 
 func GetDB() *gorm.DB{
