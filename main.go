@@ -4,9 +4,9 @@ import (
 	"simplegoapp/config"
 	// "simplegoapp/seed"
 	// "simplegoapp/migrations"
-	"simplegoapp/routes"
 	"log"
 	"os"
+	"simplegoapp/routes"
 
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
@@ -17,6 +17,7 @@ func main() {
 	if err != nil{
 		log.Fatal("Error loading .env file")
 	}
+
 
 	config.InitDB()
 	defer config.CloseDB()
